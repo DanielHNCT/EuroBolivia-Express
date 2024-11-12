@@ -1,0 +1,17 @@
+body{
+    background-color: gold;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+#boton{
+    background-color: black;
+    color: gold;
+    font-size: 30px;
+    /*border: 40px;*/
+}
+
+.text{
+    text-align: center;
+}
