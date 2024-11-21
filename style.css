@@ -1,17 +1,22 @@
-body{
-    background-color: gold;
+body {
+    height: 100vh; /* Assure que le corps prend toute la hauteur de la fenêtre */
+    margin: 0; /* Supprime les marges par défaut */
+    background: linear-gradient(to bottom, red, yellow, green);
 }
+
 h1{
     font-size: 50px;
     text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 1px 1px 2px #000;
 }
-#boton{
+h2{
+    text-align: center;
+}
+
+#button{
     background-color: black;
     color: gold;
     font-size: 30px;
-    /*border: 40px;*/
-}
-
-.text{
-    text-align: center;
 }
